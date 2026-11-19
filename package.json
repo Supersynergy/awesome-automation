@@ -1,0 +1,12 @@
+{
+  "name": "awesome-automation",
+  "private": true,
+  "type": "module",
+  "description": "Curated list of tools for workflow, browser, desktop, home, infrastructure and test automation.",
+  "license": "CC0-1.0",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test test/",
+    "verify": "node scripts/verify-repos.mjs"
+  }
+}

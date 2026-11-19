@@ -1,0 +1,427 @@
+# Workflow Automation
+> Engines and platforms that connect services, schedule jobs and orchestrate multi-step processes.
+## Low-Code Platforms
+Activepieces | activepieces/activepieces | Open-source no-code automation with a typed pieces framework and AI agent support.
+Automatisch | automatisch/automatisch | Self-hosted open-source alternative to Zapier for business automation.
+Huginn | huginn/huginn | Agents that monitor the web and act on a user's behalf.
+n8n | n8n-io/n8n | Fair-code workflow automation with a visual editor and more than 400 integrations.
+Node-RED | node-red/node-red | Flow-based programming tool for wiring together devices, APIs and online services.
+Pipedream | PipedreamHQ/pipedream | Event-driven workflows with a large library of open-source integration components.
+StackStorm | StackStorm/st2 | Event-driven automation platform for remediation, deployment and ChatOps.
+## Durable Execution and Orchestration
+> Code-first engines that keep workflow state across failures and restarts.
+Cadence | cadence-workflow/cadence | Fault-tolerant stateful code platform originally built at Uber.
+Conductor | conductor-oss/conductor | Microservice orchestration engine with JSON-defined workflows, originally from Netflix.
+Hatchet | hatchet-dev/hatchet | Background task orchestration platform with queues, DAGs and durable workflows.
+Inngest | inngest/inngest | Event-driven durable functions and queues for any language.
+Restate | restatedev/restate | Durable execution runtime for services, workflows and event handlers.
+Temporal | temporalio/temporal | Durable execution platform for writing reliable workflows as code.
+Trigger.dev | triggerdotdev/trigger.dev | Open-source platform for long-running background jobs and AI workflows in TypeScript.
+Windmill | windmill-labs/windmill | Scripts, flows and internal apps in Python, TypeScript, Go and more, run on a fast worker engine.
+## Data and Pipeline Orchestration
+Apache Airflow | apache/airflow | Platform to author, schedule and monitor data workflows defined as Python code.
+Apache DolphinScheduler | apache/dolphinscheduler | Distributed visual workflow scheduler for data pipelines.
+Argo Workflows | argoproj/argo-workflows | Container-native workflow engine for Kubernetes.
+Dagster | dagster-io/dagster | Asset-based orchestrator for data and machine-learning pipelines.
+Kestra | kestra-io/kestra | Declarative YAML orchestration platform for scheduled and event-driven workflows.
+Luigi | spotify/luigi | Python module for building complex batch job pipelines with dependency resolution.
+Prefect | PrefectHQ/prefect | Python workflow orchestration with retries, scheduling and observability.
+## Business Process and Job Operations
+Camunda | camunda/camunda | Process orchestration platform based on BPMN and DMN.
+Celery | celery/celery | Distributed task queue for Python.
+BullMQ | taskforcesh/bullmq | Redis-backed message queue and job scheduler for Node.js.
+Rundeck | rundeck/rundeck | Runbook automation and job scheduler for operations teams.
+Serverless Workflow Specification | open-workflow-specification/specification | Vendor-neutral DSL for defining workflows.
+
+# Browser Automation
+> Drivers and libraries that control real browsers from code.
+## Drivers and Libraries
+chromedp | chromedp/chromedp | Go package for driving Chrome through the DevTools Protocol.
+Playwright | microsoft/playwright | Cross-browser automation library and test runner for Chromium, Firefox and WebKit with APIs for several languages.
+Puppeteer | puppeteer/puppeteer | Node.js library for controlling Chrome and Firefox over the DevTools Protocol and WebDriver BiDi.
+Rod | go-rod/rod | DevTools Protocol driver for Go aimed at web automation and scraping.
+Selenium | SeleniumHQ/selenium | Browser automation framework and WebDriver implementation with bindings for many languages.
+Splinter | cobrateam/splinter | Python abstraction layer over several browser drivers.
+Taiko | getgauge/taiko | Node.js library with a readable API for automating Chromium-based browsers.
+WebdriverIO | webdriverio/webdriverio | Browser and mobile automation framework for Node.js using WebDriver and WebDriver BiDi.
+## Browser Infrastructure
+Browserless | browserless/browserless | Headless browser service with REST and WebSocket APIs.
+docker-selenium | SeleniumHQ/docker-selenium | Official Docker images for running Selenium Grid and browsers.
+Lightpanda | lightpanda-io/browser | Headless browser written in Zig and designed for automation and AI agents.
+Steel Browser | steel-dev/steel-browser | Open-source browser API for AI agents and web automation.
+## Browser Extensions and Recorders
+Automa | AutomaApp/automa | Browser extension for automating tasks with a visual workflow builder.
+Chrome DevTools MCP | ChromeDevTools/chrome-devtools-mcp | MCP server that lets coding agents control and inspect a live Chrome browser.
+Playwright MCP | microsoft/playwright-mcp | MCP server exposing Playwright browser automation to language models.
+shot-scraper | simonw/shot-scraper | Command-line utility for taking automated screenshots of websites.
+
+# AI Agents and Computer Use
+> Agents that operate browsers, desktops and devices on a user's behalf.
+## Browser and Web Agents
+Browser Use | browser-use/browser-use | Python library that makes websites accessible to AI agents.
+Maxun | getmaxun/maxun | No-code web data extraction platform that records robots from user actions.
+Page Agent | alibaba/page-agent | JavaScript in-page GUI agent that controls a web interface with natural language.
+Skyvern | Skyvern-AI/skyvern | Browser workflow automation driven by LLMs and computer vision.
+Stagehand | browserbase/stagehand | SDK that mixes natural-language actions with Playwright code.
+Workflow Use | browser-use/workflow-use | Records browser workflows and replays them deterministically with self-healing.
+## Desktop and Mobile Agents
+Agent S | simular-ai/Agent-S | Open agentic framework that uses computers like a human.
+Mobile MCP | mobile-next/mobile-mcp | MCP server for automating iOS and Android devices, simulators and emulators.
+## Agent Frameworks and Protocols
+AutoGen | microsoft/autogen | Framework for building multi-agent AI applications.
+CrewAI | crewAIInc/crewAI | Framework for orchestrating role-playing autonomous agents.
+LangGraph | langchain-ai/langgraph | Library for building stateful, long-running agents as graphs.
+Mastra | mastra-ai/mastra | TypeScript framework for agents, workflows and retrieval.
+Model Context Protocol Servers | modelcontextprotocol/servers | Reference implementations of MCP servers for common tools and data sources.
+OpenAI Agents SDK | openai/openai-agents-python | Lightweight Python framework for multi-agent workflows.
+OpenHands | OpenHands/OpenHands | Platform for software-development agents that write code, run commands and browse the web.
+Composio | ComposioHQ/composio | Tool and integration layer that connects agents to external applications.
+Langflow | langflow-ai/langflow | Visual framework for building and deploying agent and RAG workflows.
+
+# Web Scraping and Data Extraction
+Cheerio | cheeriojs/cheerio | Fast jQuery-like HTML parsing and manipulation for Node.js.
+changedetection.io | dgtlmoon/changedetection.io | Self-hosted website change detection and monitoring.
+Colly | gocolly/colly | Fast and elegant scraping framework for Go.
+Crawl4AI | unclecode/crawl4ai | Open-source crawler that produces LLM-ready Markdown.
+Crawlee | apify/crawlee | Web scraping and browser automation library for Node.js and Python.
+EasySpider | NaiboWang/EasySpider | Visual no-code web crawler and browser automation tool.
+Firecrawl | firecrawl/firecrawl | API that turns websites into clean Markdown or structured data.
+Scrapegraph-ai | ScrapeGraphAI/Scrapegraph-ai | Python scraper that builds scraping pipelines with LLMs and graph logic.
+Scrapling | D4Vinci/Scrapling | Adaptive Python scraping framework that survives website changes.
+Scrapy | scrapy/scrapy | Fast high-level crawling and scraping framework for Python.
+
+# Desktop Automation and RPA
+> Tools for automating graphical applications, keyboards and operating systems.
+## Cross-Platform
+Airtest | AirtestProject/Airtest | Image-recognition based UI automation for games and apps on several platforms.
+RobotGo | go-vgo/robotgo | Go library for native keyboard, mouse, screen and window control.
+Robot Framework | robotframework/robotframework | Generic keyword-driven automation framework for testing and RPA.
+RPA for Python | tebelorg/RPA-Python | Python package for robotic process automation built on TagUI.
+TagUI | aisingapore/TagUI | Command-line RPA tool with a natural-language scripting syntax.
+## Windows
+AutoHotkey | AutoHotkey/AutoHotkey | Scripting language for hotkeys, macros and Windows automation.
+FlaUI | FlaUI/FlaUI | Library for automating Windows applications on .NET through UI Automation.
+pywinauto | pywinauto/pywinauto | Python modules for automating Microsoft Windows GUI applications.
+WinAppDriver | microsoft/WinAppDriver | WebDriver server for testing Windows desktop applications.
+## macOS and Linux
+AutoKey | autokey/autokey | Desktop automation utility for Linux and X11.
+Hammerspoon | Hammerspoon/hammerspoon | Lua-based macOS automation tool with bridges to system APIs.
+Karabiner-Elements | pqrs-org/Karabiner-Elements | Powerful keyboard customizer for macOS.
+xdotool | jordansissel/xdotool | Command-line X11 automation tool for keyboard input and window control.
+
+# Home Automation
+> Platforms and tools for controlling smart homes locally.
+## Platforms
+Domoticz | domoticz/domoticz | Lightweight home automation system for lights, sensors and meters.
+Home Assistant | home-assistant/core | Open-source home automation that puts local control and privacy first.
+ioBroker | ioBroker/ioBroker.js-controller | Integration platform for the Internet of Things and smart homes.
+openHAB | openhab/openhab-core | Vendor-neutral home automation platform core.
+## Devices and Protocols
+ESPHome | esphome/esphome | Configures ESP8266 and ESP32 devices with YAML and connects them to home automation systems.
+Homebridge | homebridge/homebridge | Lightweight server that emulates the HomeKit API for unsupported devices.
+Matter SDK | project-chip/connectedhomeip | Open-source reference implementation of the Matter smart home standard.
+Mosquitto | eclipse-mosquitto/mosquitto | Open-source MQTT broker.
+Tasmota | arendst/Tasmota | Alternative firmware for ESP8266 and ESP32 based devices with local control.
+Z-Wave JS UI | zwave-js/zwave-js-ui | Full-featured Z-Wave control panel and MQTT gateway.
+Zigbee2MQTT | Koenkk/zigbee2mqtt | Zigbee-to-MQTT bridge that works without vendor gateways.
+## Add-Ons and Tooling
+AppDaemon | AppDaemon/appdaemon | Python apps for writing Home Assistant and MQTT automations.
+evcc | evcc-io/evcc | Sun-powered electric vehicle charging controller.
+Frigate | blakeblackshear/frigate | Network video recorder with local AI object detection.
+HACS | hacs/integration | Community store for custom Home Assistant integrations and themes.
+Home Assistant MCP Server | homeassistant-ai/ha-mcp | MCP server that lets AI assistants control Home Assistant.
+Music Assistant | music-assistant/server | Music library manager that streams to many types of players.
+
+# Test Automation
+> Everything for automating software tests, grouped by purpose.
+## End-to-End and Web Testing
+> Playwright, Selenium and WebdriverIO also work as test runners; they are listed under Browser Automation.
+Cypress | cypress-io/cypress | Browser testing framework that runs tests inside the browser.
+CodeceptJS | codeceptjs/CodeceptJS | Scenario-driven testing framework with helpers for Playwright, Puppeteer and WebDriver.
+Nightwatch.js | nightwatchjs/nightwatch | Integrated end-to-end testing framework for Node.js.
+SeleniumBase | seleniumbase/SeleniumBase | Python framework for browser automation and end-to-end testing.
+Selenide | selenide/selenide | Concise Java library for stable UI tests on top of Selenium.
+Serenity BDD | serenity-bdd/serenity-core | Library for writing readable acceptance tests with rich reports.
+Testplane | gemini-testing/testplane | Browser test runner built on WebdriverIO with a focus on stability.
+TestCafe | DevExpress/testcafe | Node.js end-to-end testing tool that needs no WebDriver.
+Capybara | teamcapybara/capybara | Acceptance test framework for web applications in Ruby.
+## Mobile Testing
+Appium | appium/appium | Cross-platform UI automation framework for mobile, desktop and other apps.
+Appium Inspector | appium/appium-inspector | GUI for inspecting application elements and recording Appium sessions.
+Detox | wix/Detox | Gray-box end-to-end testing and automation framework for React Native.
+Maestro | mobile-dev-inc/maestro | Declarative UI testing for mobile and web using simple YAML flows.
+Patrol | leancodepl/patrol | Flutter-first UI testing framework with native automation support.
+Robolectric | robolectric/robolectric | Unit-testing framework that runs Android tests on the JVM.
+uiautomator2 | openatx/uiautomator2 | Python wrapper for Android UI automation.
+## Unit and BDD Frameworks
+### JavaScript and TypeScript
+AVA | avajs/ava | Concurrent test runner for Node.js with minimal syntax.
+Jasmine | jasmine/jasmine | Behavior-driven testing framework for JavaScript.
+Jest | jestjs/jest | JavaScript testing framework with a focus on simplicity.
+Mocha | mochajs/mocha | Feature-rich test framework for Node.js and the browser.
+Sinon.JS | sinonjs/sinon | Standalone test spies, stubs and mocks for JavaScript.
+Testing Library | testing-library/dom-testing-library | Simple utilities for testing UI components the way users interact with them.
+Vitest | vitest-dev/vitest | Vite-native test framework compatible with the Jest API.
+### Python
+Behave | behave/behave | Behavior-driven development framework for Python.
+nox | wntrblm/nox | Flexible test automation tool configured in Python.
+pytest | pytest-dev/pytest | Framework that makes it easy to write small, readable tests and scales to complex ones.
+pytest-bdd | pytest-dev/pytest-bdd | BDD library for the pytest runner.
+pytest-xdist | pytest-dev/pytest-xdist | Plugin for running tests in parallel and distributing them across machines.
+tox | tox-dev/tox | Generic virtual environment management and test command line tool.
+### Java and Kotlin
+AssertJ | assertj/assertj | Fluent assertions library for Java.
+Awaitility | awaitility/awaitility | DSL for testing asynchronous systems in Java.
+Cucumber JVM | cucumber/cucumber-jvm | Cucumber implementation for the JVM.
+JUnit 5 | junit-team/junit-framework | Programmer-friendly testing framework for Java and the JVM.
+Karate | karatelabs/karate | Open-source tool that combines API, UI and performance testing in one DSL.
+Kotest | kotest/kotest | Flexible multiplatform test framework for Kotlin.
+MockK | mockk/mockk | Mocking library for Kotlin.
+Mockito | mockito/mockito | Mocking framework for Java unit tests.
+REST Assured | rest-assured/rest-assured | Java DSL for testing and validating REST services.
+Spock | spockframework/spock | Specification framework for Java and Groovy.
+TestNG | testng-team/testng | Testing framework inspired by JUnit and NUnit with extra annotations and configuration.
+### Ruby
+Cucumber Ruby | cucumber/cucumber-ruby | Cucumber implementation for Ruby.
+FactoryBot | thoughtbot/factory_bot | Fixtures replacement that builds test objects from factories.
+Minitest | minitest/minitest | Small and fast unit testing framework in the Ruby standard distribution.
+RSpec | rspec/rspec | Behavior-driven development framework for Ruby.
+### .NET
+bUnit | bUnit-dev/bUnit | Testing library for Blazor components.
+FluentAssertions | fluentassertions/fluentassertions | Extension methods for writing readable assertions in .NET tests.
+NSubstitute | nsubstitute/NSubstitute | Friendly substitute for .NET mocking libraries.
+NUnit | nunit/nunit | Unit-testing framework for all .NET languages.
+Reqnroll | reqnroll/Reqnroll | Open-source BDD framework for .NET.
+Verify | VerifyTests/Verify | Snapshot testing tool for .NET.
+xUnit.net | xunit/xunit | Free community-focused unit testing tool for .NET.
+### PHP
+Behat | Behat/Behat | Behavior-driven development framework for PHP.
+Codeception | Codeception/Codeception | Full-stack testing framework for PHP covering unit, functional and acceptance tests.
+Mockery | mockery/mockery | Mock object framework for PHP.
+Pest | pestphp/pest | Elegant PHP testing framework with a focus on simplicity.
+PHPUnit | sebastianbergmann/phpunit | De facto standard unit testing framework for PHP.
+### Go
+Ginkgo | onsi/ginkgo | Behavior-driven testing framework for Go.
+godog | cucumber/godog | Cucumber for Go.
+gotestsum | gotestyourself/gotestsum | Test runner with readable output and JUnit XML reports for Go.
+GoMock | uber-go/mock | Mocking framework for the Go programming language.
+Testify | stretchr/testify | Assertions, mocks and suites for Go tests.
+### Rust
+cargo-nextest | nextest-rs/nextest | Next-generation test runner for Rust.
+Criterion.rs | bheisler/criterion.rs | Statistics-driven micro-benchmarking library for Rust.
+insta | mitsuhiko/insta | Snapshot testing library for Rust.
+mockall | asomers/mockall | Powerful mock object library for Rust.
+### C and C++
+Catch2 | catchorg/Catch2 | Modern C++ test framework with a header-only option.
+doctest | doctest/doctest | Fast single-header C++ testing framework.
+GoogleTest | google/googletest | Google's C++ testing and mocking framework.
+### Shell
+Bats | bats-core/bats-core | Bash Automated Testing System.
+ShellCheck | koalaman/shellcheck | Static analysis tool for shell scripts.
+## API Testing and Mocking
+Bruno | usebruno/bruno | Offline-first, Git-friendly API client with a plain-text collection format.
+EvoMaster | WebFuzzing/EvoMaster | Fuzzer that generates system-level tests for REST, GraphQL and RPC APIs.
+ghz | bojand/ghz | Load testing and benchmarking tool for gRPC services.
+grpcurl | fullstorydev/grpcurl | Command-line tool for interacting with gRPC servers.
+Hoppscotch | hoppscotch/hoppscotch | Open-source API development ecosystem with a web client and CLI.
+HTTPie | httpie/cli | Human-friendly command-line HTTP client.
+Hurl | Orange-OpenSource/hurl | Runs and tests HTTP requests described in plain text.
+Insomnia | Kong/insomnia | Open-source API client for REST, GraphQL, gRPC and WebSockets.
+json-server | typicode/json-server | Full fake REST API from a JSON file with zero coding.
+Keploy | keploy/keploy | Generates API tests and mocks by recording real traffic.
+Microcks | microcks/microcks | Mocking and testing of API and microservice contracts.
+Mockoon | mockoon/mockoon | Desktop and CLI tool for designing mock APIs.
+MockServer | mock-server/mockserver-monorepo | Mocks and proxies HTTP and HTTPS services for testing.
+MSW | mswjs/msw | API mocking library that intercepts requests at the network level.
+Newman | postmanlabs/newman | Command-line collection runner for Postman.
+nock | nock/nock | HTTP server mocking and expectations library for Node.js.
+Pact JS | pact-foundation/pact-js | Consumer-driven contract testing for JavaScript.
+Prism | stoplightio/prism | HTTP mock server and validation proxy driven by OpenAPI documents.
+RESTler | microsoft/restler-fuzzer | Stateful REST API fuzzing tool.
+Schemathesis | schemathesis/schemathesis | Property-based testing for APIs defined by OpenAPI and GraphQL schemas.
+Specmatic | specmatic/specmatic | Turns API specifications into executable contract tests.
+Tavern | taverntesting/tavern | Pytest plugin for testing REST and MQTT APIs with YAML.
+WireMock | wiremock/wiremock | Flexible tool for mocking HTTP services.
+xh | ducaale/xh | Fast, friendly HTTP client inspired by HTTPie, written in Rust.
+## Load and Performance Testing
+ali | nakabonne/ali | Load tester with real-time terminal analysis.
+Artillery | artilleryio/artillery | Load and functional testing toolkit for APIs and browsers.
+bombardier | codesenberg/bombardier | Fast cross-platform HTTP benchmarking tool written in Go.
+Fortio | fortio/fortio | Load testing library, command-line tool and echo server.
+Gatling | gatling/gatling | High-performance load testing tool with a code-based DSL.
+Goose | tag1consulting/goose | Load testing framework for Rust inspired by Locust.
+hey | rakyll/hey | HTTP load generator and ApacheBench replacement.
+hyperfine | sharkdp/hyperfine | Command-line benchmarking tool with statistical analysis.
+Apache JMeter | apache/jmeter | Java application for load testing and measuring performance.
+k6 | grafana/k6 | Developer-centric load testing tool with tests written in JavaScript.
+Lighthouse CI | GoogleChrome/lighthouse-ci | Automates running Lighthouse for every commit.
+Locust | locustio/locust | Scalable user load testing tool defined in plain Python.
+oha | hatoo/oha | HTTP load generator with a terminal UI, written in Rust.
+sitespeed.io | sitespeedio/sitespeed.io | Tools for monitoring and measuring web performance.
+Taurus | Blazemeter/taurus | Automation-friendly framework for running JMeter, Gatling, k6 and other tools from YAML.
+Vegeta | tsenart/vegeta | HTTP load testing tool and library.
+xk6 | grafana/xk6 | Builds custom k6 binaries with extensions.
+## Visual Regression Testing
+Argos | argos-ci/argos | Open-source visual testing platform for pull requests.
+BackstopJS | garris/BackstopJS | Visual regression testing for web apps using headless browsers.
+jest-image-snapshot | americanexpress/jest-image-snapshot | Jest matcher for image comparisons.
+Loki | oblador/loki | Visual regression testing for Storybook.
+pixelmatch | mapbox/pixelmatch | Small pixel-level image comparison library.
+reg-suit | reg-viz/reg-suit | Visual regression testing tool that stores snapshots in cloud storage.
+Visual Regression Tracker | Visual-Regression-Tracker/Visual-Regression-Tracker | Self-hosted service for tracking and reviewing visual changes.
+## Accessibility Testing
+Accessibility Insights | microsoft/accessibility-insights-web | Tools for finding and fixing accessibility issues in web apps.
+axe-core | dequelabs/axe-core | Accessibility rules engine for automated testing of HTML pages.
+axe-core npm | dequelabs/axe-core-npm | Integrations of axe-core for Playwright, Puppeteer and WebdriverIO.
+cypress-axe | component-driven/cypress-axe | Cypress commands for running axe-core checks.
+eslint-plugin-jsx-a11y | jsx-eslint/eslint-plugin-jsx-a11y | Static accessibility linting rules for JSX elements.
+jest-axe | nickcolley/jest-axe | Custom Jest matcher for axe accessibility tests.
+Lighthouse | GoogleChrome/lighthouse | Automated auditing for performance, accessibility and best practices.
+Pa11y | pa11y/pa11y | Automated accessibility testing from the command line.
+Pa11y CI | pa11y/pa11y-ci | Runs Pa11y against multiple URLs in continuous integration.
+## Mutation, Property-Based and Fuzz Testing
+AFL++ | AFLplusplus/AFLplusplus | Community-maintained fork of the American Fuzzy Lop fuzzer.
+Atheris | google/atheris | Coverage-guided fuzzing engine for Python.
+cargo-fuzz | rust-fuzz/cargo-fuzz | Command-line wrapper for using libFuzzer with Rust.
+cargo-mutants | sourcefrog/cargo-mutants | Mutation testing for Rust projects.
+fast-check | dubzzz/fast-check | Property-based testing framework for JavaScript and TypeScript.
+gremlins | go-gremlins/gremlins | Mutation testing tool for Go.
+honggfuzz | google/honggfuzz | Security-oriented feedback-driven fuzzer.
+Hypothesis | HypothesisWorks/hypothesis | Property-based testing library for Python.
+Infection | infection/infection | Mutation testing framework for PHP.
+Jazzer | CodeIntelligenceTesting/jazzer | Coverage-guided fuzzer for the JVM.
+jqwik | jqwik-team/jqwik | Property-based testing engine for the JVM.
+mull | mull-project/mull | Mutation testing tool for C and C++ based on LLVM.
+Mutant | mbj/mutant | Mutation testing tool for Ruby.
+mutmut | boxed/mutmut | Mutation testing system for Python.
+OSS-Fuzz | google/oss-fuzz | Continuous fuzzing service for open-source software.
+PIT | hcoles/pitest | State-of-the-art mutation testing system for the JVM.
+proptest | proptest-rs/proptest | Hypothesis-like property testing framework for Rust.
+rapid | flyingmutant/rapid | Property-based testing library for Go.
+Stryker.NET | stryker-mutator/stryker-net | Mutation testing for .NET.
+StrykerJS | stryker-mutator/stryker-js | Mutation testing for JavaScript, TypeScript and frameworks built on them.
+## Test Data and Environments
+Bogus | bchavez/Bogus | Fake data generator for .NET.
+Faker | joke2k/faker | Python package that generates fake data.
+Faker.js | faker-js/faker | Generates massive amounts of realistic fake data in JavaScript.
+FreezeGun | spulec/freezegun | Python library for mocking the current date and time.
+kind | kubernetes-sigs/kind | Runs local Kubernetes clusters using Docker containers as nodes.
+responses | getsentry/responses | Utility for mocking the Python requests library.
+Testcontainers for Go | testcontainers/testcontainers-go | Throwaway containers for Go integration tests.
+Testcontainers for Java | testcontainers/testcontainers-java | Throwaway Docker containers for JUnit tests.
+Testcontainers for .NET | testcontainers/testcontainers-dotnet | Throwaway containers for .NET integration tests.
+Testcontainers for Node.js | testcontainers/testcontainers-node | Throwaway containers for Node.js integration tests.
+Testcontainers for Python | testcontainers/testcontainers-python | Throwaway containers for Python integration tests.
+Toxiproxy | Shopify/toxiproxy | TCP proxy that simulates network and system conditions for resilience testing.
+vcrpy | kevin1024/vcrpy | Records and replays HTTP interactions in Python tests.
+WebMock | bblimke/webmock | Library for stubbing and setting expectations on HTTP requests in Ruby.
+## Reporting and Test Management
+Allure Report | allure-framework/allure2 | Flexible multi-language test report tool.
+CTRF | ctrf-io/ctrf | Common Test Report Format for a consistent test result schema.
+Kiwi TCMS | kiwitcms/kiwitcms | Open-source test management system.
+ReportPortal | reportportal/reportportal | AI-powered test automation dashboard and analytics platform.
+Test Reporter | dorny/test-reporter | GitHub Action that displays test results from many frameworks.
+## Security Testing
+Gitleaks | gitleaks/gitleaks | Detects secrets in code and Git history.
+Nuclei | projectdiscovery/nuclei | Template-based vulnerability scanner.
+Semgrep | semgrep/semgrep | Lightweight static analysis with customizable rules.
+Trivy | aquasecurity/trivy | Scanner for vulnerabilities, misconfigurations and secrets in containers and code.
+OWASP ZAP | zaproxy/zaproxy | Dynamic application security scanner that can run in automation.
+## Chaos Engineering
+ChaosBlade | chaosblade-io/chaosblade | Chaos experiment toolkit for cloud-native and host environments.
+Chaos Mesh | chaos-mesh/chaos-mesh | Chaos engineering platform for Kubernetes.
+Chaos Monkey | Netflix/chaosmonkey | Randomly terminates instances to test resilience.
+Chaos Toolkit | chaostoolkit/chaostoolkit | Open API and tooling for chaos experiments.
+LitmusChaos | litmuschaos/litmus | Cloud-native chaos engineering framework.
+## AI-Assisted Testing
+Shortest | antiwork/shortest | End-to-end tests written in natural language.
+Testsigma | testsigmahq/testsigma | Open-source test automation platform with natural-language test authoring.
+
+# CI/CD and Release Automation
+## Pipelines
+Argo CD | argoproj/argo-cd | Declarative GitOps continuous delivery for Kubernetes.
+Concourse | concourse/concourse | Container-based continuous integration system with pipelines defined as code.
+Dagger | dagger/dagger | Portable programmable CI/CD engine that runs pipelines in containers.
+Flux | fluxcd/flux2 | GitOps toolkit for keeping Kubernetes clusters in sync with Git.
+Jenkins | jenkinsci/jenkins | Extensible open-source automation server.
+Tekton | tektoncd/pipeline | Kubernetes-native framework for building CI/CD systems.
+Woodpecker CI | woodpecker-ci/woodpecker | Community fork of Drone CI with container-based pipelines.
+## GitHub Actions Tooling
+act | nektos/act | Runs GitHub Actions locally.
+actionlint | rhysd/actionlint | Static checker for GitHub Actions workflow files.
+Super-Linter | super-linter/super-linter | Combination of many linters that runs as a GitHub Action.
+## Releases and Dependencies
+Changesets | changesets/changesets | Manages versioning and changelogs for multi-package repositories.
+Dependabot | dependabot/dependabot-core | Core logic behind GitHub's automated dependency updates.
+GoReleaser | goreleaser/goreleaser | Release automation for Go projects.
+release-please | googleapis/release-please | Generates release pull requests from Conventional Commits.
+Renovate | renovatebot/renovate | Automated dependency update tool for many package managers.
+semantic-release | semantic-release/semantic-release | Fully automated version management and package publishing.
+
+# Infrastructure and Configuration Automation
+Ansible | ansible/ansible | Agentless IT automation platform using YAML playbooks.
+Chef InSpec | inspec/inspec | Testing framework for compliance and security of infrastructure.
+Checkov | bridgecrewio/checkov | Static analysis for infrastructure-as-code misconfigurations.
+Conftest | open-policy-agent/conftest | Tests structured configuration files with Open Policy Agent policies.
+Crossplane | crossplane/crossplane | Control plane framework for building cloud-native platforms.
+Molecule | ansible/molecule | Testing framework for Ansible roles and collections.
+OpenTofu | opentofu/opentofu | Open-source fork of Terraform for declarative infrastructure management.
+Packer | hashicorp/packer | Builds identical machine images from a single source configuration.
+Pulumi | pulumi/pulumi | Infrastructure as code in general-purpose programming languages.
+Salt | saltstack/salt | Event-driven automation and remote execution engine.
+Terragrunt | gruntwork-io/terragrunt | Thin wrapper that keeps Terraform and OpenTofu configurations DRY.
+Terratest | gruntwork-io/terratest | Go library for automated tests of infrastructure code.
+Test Kitchen | test-kitchen/test-kitchen | Integration testing harness for infrastructure code.
+TFLint | terraform-linters/tflint | Pluggable linter for Terraform configurations.
+
+# Scripting and Developer Workflow
+## Task Runners and Shells
+direnv | direnv/direnv | Loads and unloads environment variables depending on the current directory.
+Fabric | fabric/fabric | High-level Python library for executing shell commands over SSH.
+Invoke | pyinvoke/invoke | Python task execution tool and library.
+just | casey/just | Handy command runner that saves and runs project-specific commands.
+mise | jdx/mise | Polyglot tool version manager, environment manager and task runner.
+Plumbum | tomerfiliba/plumbum | Shell combinators library for writing shell-like Python scripts.
+Task | go-task/task | Task runner and build tool written in Go with a simple YAML schema.
+zx | google/zx | Tool for writing better shell scripts in JavaScript.
+## Scheduling and Watching
+entr | eradman/entr | Runs arbitrary commands when files change.
+Healthchecks | healthchecks/healthchecks | Cron job monitoring service that alerts when pings stop.
+Ofelia | mcuadros/ofelia | Modern and low-footprint job scheduler for Docker environments.
+Supercronic | aptible/supercronic | Cron implementation designed for containers.
+watchexec | watchexec/watchexec | Executes commands in response to file modifications.
+## Git Hooks and Code Quality
+commitlint | conventional-changelog/commitlint | Lints commit messages against conventions.
+Husky | typicode/husky | Git hooks made easy.
+Lefthook | evilmartians/lefthook | Fast and powerful Git hooks manager.
+pre-commit | pre-commit/pre-commit | Framework for managing and maintaining multi-language pre-commit hooks.
+## Terminal Interaction
+Expect for Python | pexpect/pexpect | Python module for controlling and automating interactive programs.
+Gum | charmbracelet/gum | Glamorous shell scripts with prompts, spinners and styled output.
+
+# Learning Resources
+## Guides and Courses
+> Documentation and articles worth reading before choosing tools.
+Automate the Boring Stuff with Python | https://automatetheboringstuff.com | Free book on automating everyday computer tasks with Python.
+Google Testing Blog | https://testing.googleblog.com | Articles about testing practices from engineers at Google.
+JavaScript Testing Best Practices | https://github.com/goldbergyoni/javascript-testing-best-practices | Over 50 best practices for JavaScript and Node.js testing.
+Ministry of Testing | https://www.ministryoftesting.com | Community and learning platform for software testers.
+Playwright Documentation | https://playwright.dev | Official guides and API reference for Playwright.
+The Practical Test Pyramid | https://martinfowler.com/articles/practical-test-pyramid.html | Article on structuring automated tests across layers.
+Test Automation University | https://testautomationu.applitools.com | Free online courses on test automation.
+## Example Projects
+Cypress Real World App | cypress-io/cypress-realworld-app | Payment application used to demonstrate Cypress testing practices.
+How They Automate on Mobile | testableapple/how-they-automate-on-mobile | Collection of mobile automation practices from different companies.
+
+# Related Lists
+awesome-ci | ligurio/awesome-ci | Continuous integration tools and services.
+awesome-home-assistant | frenck/awesome-home-assistant | Home Assistant resources.
+awesome-mcp-servers | punkpeye/awesome-mcp-servers | Model Context Protocol servers.
+awesome-n8n-templates | enescingoz/awesome-n8n-templates | Collection of ready-made n8n workflow templates.
+awesome-playwright | mxschmitt/awesome-playwright | Playwright resources and tools.
+awesome-selenium | christian-bromann/awesome-selenium | Selenium resources.
+awesome-selfhosted | awesome-selfhosted/awesome-selfhosted | Free software network services that can be hosted locally.
+awesome-shortcuts | vhuty/awesome-shortcuts | Apple Shortcuts automations.
+awesome-test-automation | atinfo/awesome-test-automation | Test automation frameworks and tools by language.
+awesome-web-scraping | lorien/awesome-web-scraping | Web scraping libraries and tools.
+awesome-workflow-automation | dariubs/awesome-workflow-automation | Workflow automation software, engines and tools.
