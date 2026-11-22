@@ -121,6 +121,7 @@ _Drivers and libraries that control real browsers from code._
 
 - [Browserless](https://github.com/browserless/browserless) - Headless browser service with REST and WebSocket APIs.
 - [docker-selenium](https://github.com/SeleniumHQ/docker-selenium) - Official Docker images for running Selenium Grid and browsers.
+- [easi.run](https://github.com/julianosig/easi.run) - Self-hosted Chrome sessions with agent tools, replay and human takeover.
 - [Lightpanda](https://github.com/lightpanda-io/browser) - Headless browser written in Zig and designed for automation and AI agents.
 - [Steel Browser](https://github.com/steel-dev/steel-browser) - Open-source browser API for AI agents and web automation.
 
