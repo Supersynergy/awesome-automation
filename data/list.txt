@@ -47,6 +47,7 @@ WebdriverIO | webdriverio/webdriverio | Browser and mobile automation framework 
 ## Browser Infrastructure
 Browserless | browserless/browserless | Headless browser service with REST and WebSocket APIs.
 docker-selenium | SeleniumHQ/docker-selenium | Official Docker images for running Selenium Grid and browsers.
+easi.run | julianosig/easi.run | Self-hosted Chrome sessions with agent tools, replay and human takeover.
 Lightpanda | lightpanda-io/browser | Headless browser written in Zig and designed for automation and AI agents.
 Steel Browser | steel-dev/steel-browser | Open-source browser API for AI agents and web automation.
 ## Browser Extensions and Recorders
